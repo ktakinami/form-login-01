@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(45deg,#cf6666,#ec96d6,#7f1faf);
+}
+
+.container {
+    width: 250px;
+    padding: 20px 20px 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(177, 215, 245);
+    border: 0;
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+                inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.title {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.input-field {
+    margin-bottom: 10px;
+}
+
+hr {
+    margin: 0 15px;
+}
+
+.input-field-submit input {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 205, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, 0.2),
+                                      rgba(0, 0, 0, 0.2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+                inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.input-field-submit input:hover {
+    background-color: rgba(255, 0, 238, 1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.input-field-submit input:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+                inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.forgot-password {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+.sign-up-container {
+    margin: 15px 0;
+}
+
+.sign-up-link {
+    margin-top: 10px;
+}
+
+a:hover {
+    color: #0000ff;
+    transition: 0.5s; 
+}
+
+a:active {
+    font-size: 0.9em;
+}
+
+/* SIGN UP PAGE */
